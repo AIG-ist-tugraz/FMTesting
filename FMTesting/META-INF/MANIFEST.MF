@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: at.tugraz.ist.ase.fmdiagnosis
+Bundle-SymbolicName: at.tugraz.ist.ase.fmdiagnosis;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: at.tugraz.ist.ase.fmdiagnosis
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Bundle-ClassPath: .,
+ lib/fma-jar-with-dependencies.jar
+Require-Bundle: de.ovgu.featureide.core;bundle-version="3.9.0",
+ de.ovgu.featureide.ui;bundle-version="3.9.0",
+ de.ovgu.featureide.fm.core;bundle-version="3.9.0",
+ de.ovgu.featureide.fm.ui;bundle-version="3.9.0",
+ org.eclipse.core.resources;bundle-version="3.17.0",
+ org.eclipse.core.runtime;bundle-version="3.25.0",
+ org.eclipse.ui;bundle-version="3.201.0",
+ org.eclipse.ui.views;bundle-version="3.11.100"
